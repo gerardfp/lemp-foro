@@ -1,0 +1,1 @@
+CREATE TABLE posts(id INT AUTO_INCREMENT, post TEXT, replyto INT, PRIMARY KEY (id));
