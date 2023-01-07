@@ -5,21 +5,21 @@
 <style>
 body {
 	font-family: sans;
-    max-width: 80em;
-    margin: auto;
+	max-width: 80em;
+	margin: auto;
 }
 
 h1 {
 	background: linear-gradient(90deg, #e35614 70%, #fa1654);
 	color: white;
 	padding: 16px;
-    margin-top: 0;
+	margin-top: 0;
 }
 
 body > details {
 	border: 1px solid #e35614;
 	margin: 0px;
-    margin-top: 12px;
+	margin-top: 12px;
 }
 
 details {
@@ -47,9 +47,9 @@ summary {
 
 input[type=submit] {
 	background: #e35614;
-    color: white;
-    border: 1px solid #fa5624;
-    padding: .3em;
+	color: white;
+	border: 1px solid #fa5624;
+	padding: .3em;
 }
 </style>
 
@@ -90,7 +90,7 @@ function buildTree(array $filas, $replyto = NULL) {
 							<form action='?'>
 								<input type='hidden' name='replyto' value='{$fila['id']}'>
 								<textarea type='text' name='reply' rows='8' cols='80' ></textarea>
-                                <br>
+								<br>
 								<input type='submit' value='Responder'>
 							</form>
 						</details>
