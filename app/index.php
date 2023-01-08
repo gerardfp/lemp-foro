@@ -10,7 +10,14 @@ body {
 }
 
 h1 {
-	background: linear-gradient(90deg, #e35614 70%, #fa1654);
+	background-color:hsla(0,100%,50%,1);
+	background-image:
+	radial-gradient(at 0% 43%, hsla(18,83%,48%,1) 0px, transparent 50%),
+	radial-gradient(at 0% 72%, hsla(18,83%,48%,1) 0px, transparent 50%),
+	radial-gradient(at 0% 100%, hsla(19,83%,48%,1) 0px, transparent 50%),
+	radial-gradient(at 100% 100%, hsla(0,75%,58%,1) 0px, transparent 50%),
+	radial-gradient(at 0% 0%, hsla(11,83%,47%,1) 0px, transparent 50%),
+	radial-gradient(at 100% 0%, hsla(18,83%,48%,1) 0px, transparent 50%);
 	color: white;
 	padding: 16px;
 	margin-top: 0;
